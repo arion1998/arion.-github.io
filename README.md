@@ -1,2 +1,2 @@
-# arion.-github.io
+# arion
 Speedtest scc
