@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpeedTest ARION</title> 
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+     <link href="https://arion98.000webhostapp.com/css/style.css" rel="stylesheet" >
+  </head>
+  <audio id="myAudio" loop> 
+  <source src="https://arion98.000webhostapp.com/audio/dj.mp3" type="audio/mpeg">
+</audio>
+  <audio id="myAudio2" loop> 
+  <source src="https://arion98.000webhostapp.com/audio/horse.mp3" type="audio/mpeg">
+  </audio>
+  
+  <body onload="alertAudio()">
+  
+    <h3 id="header">SpeedTest</h3>
+    <h5 id="header2">APLIKASI BY ARION</h5>
+    <div class="btnaudio" >
+      <button type="button" onclick="DJMusik()" id="audio" >Play DJ ->1</button>
+     <br> 
+     <button type="button" onclick="DJMusik2()" id="audio2" >Play DJ ->2</button> 
+</div>
+<!--    <marquee id="info" >Jangan Menyebar Luaskan Aplikasi nya</marquee> -->
+    <form id="form">
+    <div class="form" >
+    <h3 id="header1">ARION</h3>
+    <input type="number" id="ticket" placeholder="Ticket ID" ><br>
+    <input type="number" id="noinet" placeholder="No Internet" >   
+    <br>
+    <input  type="submit" value="Submit" id ="submit" name="submit" onclick="">
+<marquee id="pesan">Untuk Melanjutkan Mohon Klik Generate</marquee>
+    <button class="Generate" id="Generate" onclick="alertGenerate()">  </button>
+     </div>
+     
+    <br>
+    <div class="tutor">
+    <p>Cara Penggunaan:</p>
+    <hr>
+    <div id="panduan">
+    <li>Pastikan GPS HP Anda Posisi Hidup/ Nyala</li>
+    <li>Masukan No Internet Wifi Yang Sedang Anda Gunakan Saat Ini</li>
+    <li>Masukan Ticket Dengan Sesuai</li>
+    <li>Setelah Submit Lanjutkan Klik Generate</li>
+    <li>Setelah Itu Tunggu proses Hingga Selesai</li>
+      </div>
+    </div>
+    </form>
+    
+    <footer >2023 Copyright By Desain ARION</footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+     <script type="text/javascript" src="https://arion98.000webhostapp.com/js/main.js"></script>
+  <!--  <script type="text/javascript" src="js/main.js"></script>
+ <!--   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+  </body>
+</html>
